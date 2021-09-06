@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+body {
+  font-family: "Merriweather", serif;
+}
+#logo img {
+  width: 250px;
+  height: 100px;
+}
+.menu ul li a {
+  text-decoration: none;
+}
+.menu ul li:hover {
+  background-color: #155375;
+  color: #ffffff;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.menu ul li a:hover {
+  color: #ffffff;
+}
+.navbar-toggler {
+  margin-left: 350px;
+  margin-top: 50px;
+}
+.banner {
+  margin-top: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  color: #ffffff;
+  background-image: url(./images/geniweb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner .geni {
+  font-size: 80px;
+}
+
+.services {
+  background-image: url(./images/BGservices.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titre {
+  color: #29abe2;
+}
+.card {
+  cursor: pointer;
+  border-width: 5px;
+  border-radius: 25px;
+  color: #29abe2;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.row a {
+  text-decoration: none;
+}
+.card img {
+  width: 100%;
+  height: 260px;
+}
+.card:hover {
+  border-width: 10px;
+}
+
+.footer {
+  background-color: #162c3c;
+}
+.contact {
+  background-color: #ffffff;
+}
+
+.btn {
+  border: none;
+}
+
+#st {
+  color: #29abe2;
+}
+
+.propos {
+  background-image: url("./images/propos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.apropos {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.fmenu {
+  margin-left: 0px;
+}
